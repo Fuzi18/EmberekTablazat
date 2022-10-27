@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -15,8 +16,9 @@
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Spinner />
+            <Spinner fx:id="korMezo" />
             <TextField fx:id="nevMezo" promptText="Név" />
+            <Button mnemonicParsing="false" text="Hozzáad" />
          </children>
       </HBox>
       <TableView fx:id="emberek" prefHeight="200.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
